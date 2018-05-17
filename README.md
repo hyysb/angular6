@@ -1,23 +1,22 @@
-##add hmr
-###1. add environment.hmr.ts
-	export const environment = {
-	    production: false,
-	    hmr: true
-	};
-
-###2. modify environment.prod.ts
+add hmr
+1. add environment.hmr.ts
+   export const environment = {
+	production: false,
+	hmr: true
+   };
+2. modify environment.prod.ts
 	export const environment = {
 	    production: true,
 	++  hmr: false
 	};
 
-###3. modify environmonent.ts
+3. modify environmonent.ts
 	export const environment = {
 	    production: false,
 	++  hmr: false
 	};
 
-###4. modify angular.json
+4. modify angular.json
 	"architect": {
 	        "build": {
 	          "builder": "@angular-devkit/build-angular:browser",
