@@ -1,6 +1,5 @@
 # angular6
 ## add hmr
-=======
 ### 1. add environment.hmr.ts
 ```json
 export const environment = {
