@@ -1,7 +1,7 @@
-add hmr
+# angular6
+## add hmr
 =======
-1. add environment.hmr.ts
--------
+### 1. add environment.hmr.ts
 ```json
 export const environment = {
     production: false,
@@ -9,8 +9,7 @@ export const environment = {
 };
 ```
 
-2. modify environment.prod.ts
--------
+### 2. modify environment.prod.ts
 ```json
 export const environment = {
     production: true,
@@ -18,8 +17,7 @@ export const environment = {
 };
 ```
 
-3. modify environmonent.ts
--------
+### 3. modify environmonent.ts
 ```json
 export const environment = {
     production: false,
@@ -27,8 +25,7 @@ export const environment = {
     };
 ```
 
-4. modify angular.json
--------
+### 4. modify angular.json
 ```json
 "architect": {
         "build": {
