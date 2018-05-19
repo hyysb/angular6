@@ -1,5 +1,5 @@
 # angular6
-## add hmr
+## add hmr(gdi2290/angular-hmr#10268)
 ### 1. add environment.hmr.ts
 ```json
 export const environment = {
