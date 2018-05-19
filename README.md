@@ -103,7 +103,7 @@ export const environment = {
 +       "integrity": "sha1-NOZY7T2jfyOwogDi2lqJvpK7IJ8=",
 +       "dev": true
 +    },
-+   "@ngtools/webpack": {...}
+    "@ngtools/webpack": {...}
     ....
     "@types/selenium-webdriver": {
         "version": "2.53.43",
@@ -118,7 +118,7 @@ export const environment = {
 +         "dev": true
 +       },
 ```
-###6. modify package.json
+### 6. modify package.json
 ```json
 "scripts": {
     "ng": "ng",
@@ -156,7 +156,7 @@ export const environment = {
    }
  }
 ```
-###7. add src/hmr.ts
+### 7. add src/hmr.ts
 ```typescript
 import { NgModuleRef, ApplicationRef } from '@angular/core';
 import { createNewHosts } from '@angularclass/hmr';
@@ -175,7 +175,7 @@ export const hmrBootstrap = (module: any, bootstrap: () => Promise<NgModuleRef<a
 };
 ```
 
-###8. modify src/main.ts
+### 8. modify src/main.ts
 ```typescript
 import { AppModule } from './app/app.module';
  import { environment } from './environments/environment';
@@ -202,9 +202,9 @@ import { AppModule } from './app/app.module';
 +}
 ```
 
-###9. add src/typings.d.ts
+### 9. add src/typings.d.ts
 ```typescript
 ///<reference types="webpack-env" />
 ```
 
-###10. npm run hmr
+### 10. npm run hmr
