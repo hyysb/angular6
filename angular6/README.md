@@ -1,27 +1,11 @@
-# Angular6
+计划安排
+1. 导航栏界面设计    ——8.2
+2. 内容编辑器
+3. 数据库连接
+4. 内容页界面设计
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.1.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+angular内容 （先放到简书上）
+1. 路由
+1. 依赖注入
+2. 组建与模板
+3. 表单
